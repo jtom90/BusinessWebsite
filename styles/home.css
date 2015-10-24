@@ -1,20 +1,62 @@
+.clear {
+	clear: both;
+}
 body {
 	margin: 0px;
 	padding: 0px;
+	background-color: #FCFCFC;
 }
 header {
-	background-color: #F2F2F2;
+	background-color: #E6E6E6;
 	height: 170px;
 	width: 100%;
 	margin-bottom: 50px;
-	border-bottom: 2px solid #D9D9D9;
+	border-bottom: 1px solid #D9D9D9;
+}
+footer {
+	width: 70%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	background-color: white;
+	height: 150px;
+	border-top: 1px solid #D9D9D9;
+	border-left: 1px solid #D9D9D9;
+	border-right: 1px solid #D9D9D9;
+	padding: 10px 0px 0px 10px; 
+}
+.footercontent{
+	width: 33.3333333333%; 
+	box-sizing: border-box;
+	padding-right: 30px;
+	float: left;
+}
+.footerhead {
+	font-family: 'Muli', sans-serif;
+	font-weight: bolder; 
+	padding: 0px 0px 5px 0px;
+	margin: 0px 0px 10px 0px;
+	border-bottom: 1px solid #D9D9D9;
+}
+.footerimage {
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+.footerimg {
+	height: 100px;
+	width: 100px;
+}
+.footerlist {
+	font-family: 'Muli', sans-serif;
+	float: left;
+	font-size: 12px;
 }
 nav {
 	width: 70%;
 	margin: 0 auto;
-	height: 50px;
+	height: 40px;
 	position: absolute;
-	top: 140px;
+	top: 150px;
 	left: 15%;
 	border: 2px solid #D9D9D9;
 	background-color: #333333;
@@ -29,7 +71,6 @@ ul.navbar li {
 	float: left;
 	height: auto;
 	border-right: 2px solid black;
-	height: 50px;
 }
 ul.navbar li a {
 	text-decoration: none;
@@ -38,7 +79,7 @@ ul.navbar li a {
 	display: block;
 	font-family: 'Muli', sans-serif;
 	color: white;
-	padding: 16px 0px;
+	padding: 10px 0;
 }
 ul.navbar li a:hover {
 	color: black;
@@ -97,4 +138,5 @@ ul.navbar li a:hover {
 	background-color: lightgrey;
 	width: 70%;
 	margin: 0 auto;
+	margin-bottom: 50px;
 }
