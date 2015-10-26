@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+	
 	function changeHover(el,le,hp){
 		$(el).hover(
 				function(){
