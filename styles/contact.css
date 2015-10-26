@@ -165,17 +165,17 @@ ul.navbar li a:hover {
 	margin-right: 20px;
 	margin-bottom: 10px;
 }
-.comments input {
+.comment input {
 	width: 330px;
 	height: 200px;
 	max-height: 200px;
 	margin-bottom: 10px;
 }
-.submit input {
+.submitbutton input {
 	width: 337px;
 	height: 50px;
 	border: 0px solid #333333;
 }
-.submit input:hover {
+.submitbutton input:hover {
 	background-color: lightblue;
 }
