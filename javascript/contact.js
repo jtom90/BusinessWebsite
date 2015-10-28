@@ -13,7 +13,8 @@ $(document).ready(function(){
 
 
 	function subBttn(el,le,ll,li,lj,lo){
-		$(el).click(function(){
+		$(el).click(function(event){
+			event.preventDefault();
 			if ($(le).val(), $(ll).val(), $(li).val(), $(lj).val(), $(lo).val() === ""){
 				return $(".missingtextfield").show();
 			} else {
