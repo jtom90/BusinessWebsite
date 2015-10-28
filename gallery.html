@@ -1,9 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>
+		Gallery
+	</title>
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="gallery.js"></script>
 </head>
 <body>
+	<header>
+		<div class="number">365</div>
+		<div class="v">V</div>
+		<div class="g">G</div>
+		<div class="headlogo">
+			<div class="logo">Video Game 365</div>
+			<p class="logotext">Expert Video Game Reviews </p>
+		</div>
+	</header>
+	<div class="giffy">
+		<img class="gifpac" src="images/pac.gif">
+	</div>
+	<h2> Gallery </h2>
+	<div class="imggallery">
+		<div class="gallerythumbnails">
+				<img class="thumbnails" src="images/atari.jpg" alt="" onclick="changeImage('images/atari.jpg')">
+				<img class="thumbnails" src="images/nes.jpg" alt="" onclick="changeImage('images/nes.jpg')">
+				<img class="thumbnails" src="images/genesis.jpg" alt="" onclick="changeImage('images/genesis.jpg')">
+				<img class="thumbnails" src="images/snes.jpg" alt="" onclick="changeImage('images/snes.jpg')">
+				<img class="thumbnails" src="images/n64.jpg" alt="" onclick="changeImage('images/n64.jpg')">
+				<img class="thumbnails" src="images/ps1.jpg" alt="" onclick="changeImage('images/ps1.jpg')">
+				<img class="thumbnails" src="images/ps2.jpg" alt="" onclick="changeImage('images/ps2.jpg')">
+				<img class="thumbnails" src="images/gc.jpg" alt="" onclick="changeImage('images/gc.jpg')">
+				<img class="thumbnails" src="images/dc.jpg" alt="" onclick="changeImage('images/dc.jpg')">
+				<img class="thumbnails" src="images/xbox.jpg" alt="" onclick="changeImage('images/xbox.jpg')">
+				<img class="thumbnails" src="images/ps3.jpg" alt="" onclick="changeImage('images/ps3.jpg')">
+				<img class="thumbnails" src="images/360.jpg" alt="" onclick="changeImage('images/360.jpg')">
+				<img class="thumbnails" src="images/wii.jpg" alt="" onclick="changeImage('images/wii.jpg')">
+				<img class="thumbnails" src="images/ps4.jpg" alt="" onclick="changeImage('images/ps4.jpg')">
+				<img class="thumbnails" src="images/one.jpg" alt="" onclick="changeImage('images/one.jpg')">
+				<img class="thumbnails" src="images/wiiu.jpg" alt="" onclick="changeImage('images/wiiu.jpg')">
+		</div>
+	<div class="gallerymainimg">
+	<img id="img" class="mainimg" src="images/atari.jpg">
+	</div>
+	<div class="clear"></div>
+	</div>
+	<footer>
+		<p>&copy;  2015 NYCDA.com</p>
+		<p>The New York Code + Design Academy</p>
+		<p>90 John Street, Suite 404</p> 
+		<p>New York, NY 10038</p>
+		<p>1-212-392-1377</p> 
+		<p>info@nycda.com</p>		
+	</footer>
+
+
 
 </body>
 </html>

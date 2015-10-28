@@ -1,0 +1,110 @@
+.main-content {
+	background-color:lightgrey;
+	float:left;
+	width:65%;
+}
+img {
+	float:left;
+	height:250px;
+}
+.headlogo {
+	padding-top: 65px;
+}
+.logo {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Muli', sans-serif;
+}
+.logotext {
+	text-align: center;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Muli', sans-serif;
+}
+.v {
+	width: 50px;
+	background-color: black;
+	color: white;
+	font-family: 'Muli', sans-serif;
+	font-size: 30px;
+	position: absolute;
+	left: 45%;
+	top: 9px;
+	padding: 0px 0px 0px 5px;
+}
+.g {
+	width: 50px;
+	background-color: lightblue;
+	color: white;
+	font-family: 'Muli', sans-serif;
+	font-size: 30px;
+	position: absolute;
+	left: 47.5%;
+	top: 26px;
+	padding: 0px 0px 0px 5px;
+}
+nav {
+	width: 70%;
+	margin: 0 auto;
+	height: 40px;
+	position: absolute;
+	top: 150px;
+	left: 15%;
+	border: 2px solid #D9D9D9;
+	background-color: #333333;
+}
+ul.navbar {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	height: auto;
+} 
+ul.navbar li {
+	float: left;
+	height: auto;
+}
+ul.navbar li a {
+	text-decoration: none;
+	text-align: center;
+	width: 75px;
+	display: block;
+	font-family: 'Muli', sans-serif;
+	color: white;
+	padding: 10px 0;
+}
+ul.navbar li a:hover {
+	color: black;
+	background-color: #F2F2F2;
+}
+.right {
+	width:33%;
+	float:right;
+	border:3px solid lightblue;
+	height:250px;
+	background-color:lightgrey;
+	margin-bottom:10px;
+
+}
+.batman {
+	width:100px;
+	height:100px;
+	float:left;
+	padding:5px;
+}
+.gta {
+	width:100px;
+	height:100px;
+	float:left;
+	padding:5px;
+}
+h1 {
+	color:aqua;
+	text-align:center;
+}
+.duck {
+	width:670px;
+}
+p {
+	padding:10px;
+}
