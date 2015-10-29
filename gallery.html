@@ -4,9 +4,9 @@
 	<title>
 		Gallery
 	</title>
-	<link rel="stylesheet" type="text/css" href="gallery.css">
+	<link rel="stylesheet" type="text/css" href="styles/gallery.css">
 	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script src="gallery.js"></script>
+	<script src="images/gallery.js"></script>
 </head>
 <body>
 	<header>
@@ -17,7 +17,17 @@
 			<div class="logo">Video Game 365</div>
 			<p class="logotext">Expert Video Game Reviews </p>
 		</div>
+		
 	</header>
+	<nav>
+		<ul class="navbar">
+			<li><a href="home.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+		<div class"clear"></div>
+	</nav>
 	<div class="giffy">
 		<img class="gifpac" src="images/pac.gif">
 	</div>
@@ -32,6 +42,9 @@
 				<img class="thumbnails" src="images/ps1.jpg" alt="" onclick="changeImage('images/ps1.jpg')">
 				<img class="thumbnails" src="images/ps2.jpg" alt="" onclick="changeImage('images/ps2.jpg')">
 				<img class="thumbnails" src="images/gc.jpg" alt="" onclick="changeImage('images/gc.jpg')">
+		</div>
+		<div class="gallerythumbnails">
+				
 				<img class="thumbnails" src="images/dc.jpg" alt="" onclick="changeImage('images/dc.jpg')">
 				<img class="thumbnails" src="images/xbox.jpg" alt="" onclick="changeImage('images/xbox.jpg')">
 				<img class="thumbnails" src="images/ps3.jpg" alt="" onclick="changeImage('images/ps3.jpg')">
@@ -47,12 +60,45 @@
 	<div class="clear"></div>
 	</div>
 	<footer>
-		<p>&copy;  2015 NYCDA.com</p>
-		<p>The New York Code + Design Academy</p>
-		<p>90 John Street, Suite 404</p> 
-		<p>New York, NY 10038</p>
-		<p>1-212-392-1377</p> 
-		<p>info@nycda.com</p>		
+		<div class="footercontent">
+			<p class="footerhead">Game Play Review</p>
+			<div class="footerimage">
+				<img class="footerimg" src="images/halo.png">
+			</div>
+			<div class="footerlist">
+				<ul>
+					<li>Control Analysis</li>
+					<li>InGame Mechanics</li>
+					<li>OverAll Functionality</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footercontent">
+			<p class="footerhead">Game Design Review</p>
+			<div class="footerimage">
+				<img class="footerimg" src="images/invader.png">
+			</div>
+			<div class="footerlist">
+				<ul>
+					<li>Cinematic Executions</li>
+					<li>Acoustic Executions</li>
+					<li>Graphic Output</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footercontent">
+			<p class="footerhead">Game Story Telling Review</p>
+			<div class="footerimage">
+				<img class="footerimg" src="images/lastofus.png">
+			</div>
+			<div class="footerlist">
+				<ul>
+					<li>Character Emotion</li>
+					<li>Narration's Impact</li>
+					<li>Cinematic Blend</li>
+				</ul>
+			</div>
+		</div>
 	</footer>
 
 
